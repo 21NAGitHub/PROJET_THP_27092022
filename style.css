@@ -1,0 +1,156 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+a
+{
+  color: rgb(73, 73, 73);
+  text-decoration-line: none;
+  align-items: right;
+}
+
+a:hover
+{
+   text-decoration-line: underline; 
+}
+
+.LINK_Position
+{
+    position: absolute;
+    right:10px;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(73, 73, 73);
+    font-size: 13px;
+    word-spacing: 6px;
+}
+
+.IMG_Page
+{
+    margin-top: 30px;
+    max-width: 270px;
+    height: auto;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%);
+}
+
+.BarreDeRecherche
+{ 
+    padding-top: 30px;
+    top: 30px;
+    border: 1px 0px solid grey;
+    border-radius: 25px;
+    height: 45px;
+    width: 580px;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%);
+}
+
+input[type="search"]:hover
+{
+    box-shadow: 1px 1px black;
+}
+
+.IMG_Microphone,
+.IMG_Loupe
+{
+    top: 30px;
+    width: auto;
+    height: 20px;
+    padding-bottom: 15px;
+    padding-top: 12px;
+}
+
+.IMG_Microphone
+{
+    position: absolute;
+    top: 30px;
+    padding-left: 540px;
+    padding-right: 20px;
+}
+
+.IMG_Loupe
+{
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 560px;
+}
+
+.Flexbox_Bouttons
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.Bouttons1,
+.Bouttons2
+{
+    position: relative;
+    background-color: rgba(245, 241, 241, 0.612);
+    font-size: 15px;
+    height: 35px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 30px;
+    border-radius: 3px;
+}
+
+.Bouttons1
+{
+    transform: translate(160%);
+}
+
+.Bouttons2
+{
+    transform: translate(-160%);
+}
+
+.lien
+{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.lien2
+{
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+.Footer2
+{
+    display: flex;
+    background-color: rgba(245, 241, 241, 0.612);
+    font-size: 14px;
+    text-align: justify;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-around;
+}
+
+.Footer1
+{   
+    margin-top: 40px;
+    display: flex;
+    background-color: rgba(245, 241, 241, 0.612);
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
